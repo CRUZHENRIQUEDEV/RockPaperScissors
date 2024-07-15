@@ -1,6 +1,4 @@
-﻿using System; // Importa o namespace System, que contém definições básicas de tipos, como classes e métodos para manipulação de dados, entrada/saída, e outros.
-
-namespace RockPaperScissors // Define um namespace para agrupar classes relacionadas ao jogo Rock Paper Scissors.
+﻿namespace RockPaperScissors // Define um namespace para agrupar classes relacionadas ao jogo Rock Paper Scissors.
 {
     /// <summary>
     /// A classe Player representa o jogador humano no jogo.

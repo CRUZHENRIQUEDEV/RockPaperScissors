@@ -1,4 +1,4 @@
-﻿using System; // Importa o namespace System, que contém definições básicas de tipos, como classes e métodos para manipulação de dados, entrada/saída, e outros.
+﻿using System;
 
 namespace RockPaperScissors // Define um namespace para agrupar classes relacionadas ao jogo Rock Paper Scissors.
 {
@@ -59,7 +59,7 @@ namespace RockPaperScissors // Define um namespace para agrupar classes relacion
         /// </summary>
         /// <param name="opponentChoice">A escolha do oponente.</param>
         /// <param name="yourChoice">A escolha do jogador.</param>
-        private void DecideWinner(Choice opponentChoice, Choice yourChoice)
+        internal void DecideWinner(Choice opponentChoice, Choice yourChoice)
         {
             // Se as escolhas forem iguais, é um empate.
             if (opponentChoice == yourChoice)
@@ -84,7 +84,7 @@ namespace RockPaperScissors // Define um namespace para agrupar classes relacion
         /// Método para perguntar ao jogador se deseja jogar novamente.
         /// </summary>
         /// <returns>Retorna true se o jogador quiser jogar novamente, caso contrário, retorna false.</returns>
-        private bool AskToPlayAgain()
+        internal bool AskToPlayAgain()
         {
             // Loop para garantir que o jogador forneça uma resposta válida.
             while (true)

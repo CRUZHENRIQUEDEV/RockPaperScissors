@@ -1,5 +1,4 @@
-﻿using System; // Importa o namespace System, que contém definições básicas de tipos, como classes e métodos para entrada/saída.
-
+﻿// Refactor chat https://chatgpt.com/share/e9217fdf-bf6e-438b-a8a5-ac29e25edef3
 namespace RockPaperScissors // Define um namespace para agrupar classes relacionadas.
 {
     /// <summary>
